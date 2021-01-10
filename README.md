@@ -3,10 +3,14 @@
 It shows my personal presentation page deployed in Github pages.
 
 ## Initial configuration
-Based on HTML5, CSS and Javascript.  
+**HTML5 UP**: https://html5up.net/
+
+**Freepik**: https://www.freepik.es/
+
+**Fontawesome**: https://fontawesome.com/
  
 ## How to use
- Any browser like Chrome, Firefox, Edge
+ Open index.html file with any browser like Chrome, Firefox, Edge
 
 ## Credits
 Identity by HTML5 UP
