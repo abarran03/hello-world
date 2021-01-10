@@ -9,7 +9,8 @@
 		<title>Hello world</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		 <link rel="stylesheet" href="assets/css/main.css" /> 
+		<link href="assets/css/all.css" rel="stylesheet"> <!--load all styles -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,17 +22,15 @@
 						<header>
 							<!--<span class="avatar"><img src="images/avatar.jpg" alt="" /></span> -->
 							<h1>Allan B/H</h1>
-							<p>Software Engineer</p>
+							<p>Software Engineer <i><a href="https://www.youracclaim.com/users/allan-barrantes/badges" target="_blank"  class="fas fa-angle-double-up"> </i></a></i></p>
 						</header>
 						<footer>
 							<ul class="icons">
-								<li><a href="https://github.com/abarran03" target="_blank" class="icon brands fa-github">Git</a></li>
+								<li><a href="https://github.com/abarran03" target="_blank" class="icon brands fas fa-github">Git</a></li>
 								<li><a href="https://www.hackerrank.com/abarran21" target="_blank" class="icon brands fa-hackerrank">Hackerrank</a></li>
-								<li><a href="https://www.linkedin.com/in/allan-b-b6856bbb/" target="_blank" class="icon brands fa-linkedin">Linkedin</a></li>
-								<!-- <li><a href="#" class="icon brands fa-dev">Dev</a></li> 
-								 <li><a href="https://thatthoughtyouavoidisgoingtocomeback.blogspot.com/"  target="_blank" class="icon brands fa-blogger">Blog</a></li> -->
-								
-							</ul>
+								<li><a href="https://www.linkedin.com/in/allan-bh" target="_blank" class="icon brands fa-linkedin">Linkedin</a></li>
+								<li><a href="https://dev.to/abarran03" target="_blank" class="icon brands fab fa-dev"></i>Dev</a></li> 
+						 	</ul> 
 						</footer>
 					</section>
 
@@ -51,16 +50,7 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 
-				var url = ['http://lorempixel.com/400/200/sports/' ,
-        					'http://lorempixel.com/400/200/city/'];
-				curentImageIndex = 0;
-				setInterval(function(){ 
-				console.log(url[curentImageIndex])
-				var p = $('.image-head');
-				p.css("background","url("+url[curentImageIndex++] + ")");
-				if(curentImageIndex>= url.length){curentImageIndex = 0}
-				}, 1000);
-
+	 
 
 
 			</script>
